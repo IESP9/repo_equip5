@@ -1,7 +1,7 @@
-[gd_scene load_steps=24 format=3 uid="uid://dfymri8bibl5w"]
+[gd_scene load_steps=27 format=3 uid="uid://dfymri8bibl5w"]
 
 [ext_resource type="Texture2D" uid="uid://ct15rj63ro5am" path="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Walk/walk1.png" id="1_dp1y8"]
-[ext_resource type="Script" path="res://StateMachine/player.gd" id="1_vwkfm"]
+[ext_resource type="Script" path="res://Player/player.gd" id="1_vwkfm"]
 [ext_resource type="Texture2D" uid="uid://t1vngbxw3c1o" path="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Walk/walk2.png" id="2_t3yhr"]
 [ext_resource type="Texture2D" uid="uid://chnh8te4fv5wc" path="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Walk/walk3.png" id="3_o6087"]
 [ext_resource type="Texture2D" uid="uid://bwmfix5x3ps23" path="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Walk/walk4.png" id="4_p74id"]
@@ -20,7 +20,10 @@
 [ext_resource type="Texture2D" uid="uid://3uktnai3oasf" path="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Idle/idle3.png" id="13_ubli5"]
 [ext_resource type="Texture2D" uid="uid://c6mcd65l8xf5m" path="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Idle/idle4.png" id="14_nvnir"]
 [ext_resource type="Script" path="res://StateMachine/state_machine.gd" id="16_l31hw"]
-[ext_resource type="Script" path="res://StateMachine/idle.gd" id="21_3v40f"]
+[ext_resource type="Script" path="res://Player/idle.gd" id="21_3v40f"]
+[ext_resource type="Script" path="res://walk.gd" id="22_c3g7p"]
+[ext_resource type="Script" path="res://jumping.gd" id="23_upe0l"]
+[ext_resource type="Script" path="res://falling.gd" id="24_weu01"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_86s8f"]
 animations = [{
@@ -38,7 +41,7 @@ animations = [{
 "texture": ExtResource("14_nvnir")
 }],
 "loop": true,
-"name": &"idel",
+"name": &"idle",
 "speed": 10.0
 }, {
 "frames": [{
@@ -55,8 +58,8 @@ animations = [{
 "texture": ExtResource("9_tyu8q")
 }],
 "loop": true,
-"name": &"jump",
-"speed": 10.0
+"name": &"jumping",
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -100,11 +103,21 @@ size = Vector2(15, 40)
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_vwkfm")
 
+[node name="StateLabel" type="Label" parent="."]
+unique_name_in_owner = true
+offset_left = -20.0
+offset_top = -27.0
+offset_right = 21.0
+offset_bottom = -4.0
+theme_override_font_sizes/font_size = 10
+text = "state"
+
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
 sprite_frames = SubResource("SpriteFrames_86s8f")
-animation = &"jump"
-frame = 2
-frame_progress = 0.359699
+animation = &"jumping"
+autoplay = "idle"
+frame_progress = 0.059339
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2(-2.5, 10)
@@ -117,3 +130,10 @@ script = ExtResource("16_l31hw")
 script = ExtResource("21_3v40f")
 
 [node name="Walk" type="Node" parent="StateMachine"]
+script = ExtResource("22_c3g7p")
+
+[node name="Jumping" type="Node" parent="StateMachine"]
+script = ExtResource("23_upe0l")
+
+[node name="Falling" type="Node" parent="StateMachine"]
+script = ExtResource("24_weu01")
