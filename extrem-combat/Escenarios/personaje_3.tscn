@@ -1,9 +1,10 @@
-[gd_scene load_steps=45 format=3 uid="uid://bwrtv6w1w57sw"]
+[gd_scene load_steps=46 format=3 uid="uid://bwrtv6w1w57sw"]
 
 [ext_resource type="Texture2D" uid="uid://cekkjk5fghv4k" path="res://Personaje2/IdleSprites.png" id="1_bkcu1"]
 [ext_resource type="Texture2D" uid="uid://btu3def2rt7gh" path="res://Personaje2/JumpSprites.png" id="2_ji4fq"]
 [ext_resource type="Texture2D" uid="uid://dqgw3hdcer35c" path="res://Personaje2/LandSprites.png" id="3_poali"]
 [ext_resource type="Texture2D" uid="uid://dhc5c3ax1l3l7" path="res://Personaje2/RunSprites.png" id="4_3dfpy"]
+[ext_resource type="Script" uid="uid://4usc4jxjrsvb" path="res://StateMachine/state_machine.gd" id="5_ji4fq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vktcr"]
 atlas = ExtResource("1_bkcu1")
@@ -307,3 +308,6 @@ animations = [{
 sprite_frames = SubResource("SpriteFrames_crvg2")
 animation = &"idle"
 autoplay = "idle"
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("5_ji4fq")
