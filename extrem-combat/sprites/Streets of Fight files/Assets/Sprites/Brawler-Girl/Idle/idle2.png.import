@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc08ajw4u47wu"
-path="res://.godot/imported/idle2.png-b5a75436ad7410e15fc3d5ea90516f5e.ctex"
+path="res://.godot/imported/idle2.png-2ed5192485cc33c453a62234f8a61bc4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Idle/idle2.png"
-dest_files=["res://.godot/imported/idle2.png-b5a75436ad7410e15fc3d5ea90516f5e.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Idle/idle2.png"
+dest_files=["res://.godot/imported/idle2.png-2ed5192485cc33c453a62234f8a61bc4.ctex"]
 
 [params]
 

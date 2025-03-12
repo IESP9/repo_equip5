@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3k2cj8ahf8si"
-path="res://.godot/imported/Grass_1_16x16.png-25bf85faf4fde337d48dc76956a6d805.ctex"
+path="res://.godot/imported/Grass_1_16x16.png-c0f6cfe095c31d2d1e7edd6715f37f39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Starter Tiles Platformer/SwampTiles/Grass_1_16x16.png"
-dest_files=["res://.godot/imported/Grass_1_16x16.png-25bf85faf4fde337d48dc76956a6d805.ctex"]
+source_file="res://Sprites/Starter Tiles Platformer/SwampTiles/Grass_1_16x16.png"
+dest_files=["res://.godot/imported/Grass_1_16x16.png-c0f6cfe095c31d2d1e7edd6715f37f39.ctex"]
 
 [params]
 

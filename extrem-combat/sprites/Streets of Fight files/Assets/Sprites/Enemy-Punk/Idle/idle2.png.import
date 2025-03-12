@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5nd3l2ubin6d"
-path="res://.godot/imported/idle2.png-8898a41e58f6651c0067cd9adbea3210.ctex"
+path="res://.godot/imported/idle2.png-4f05422177706edff8a291b30b8e6379.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Idle/idle2.png"
-dest_files=["res://.godot/imported/idle2.png-8898a41e58f6651c0067cd9adbea3210.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Idle/idle2.png"
+dest_files=["res://.godot/imported/idle2.png-4f05422177706edff8a291b30b8e6379.ctex"]
 
 [params]
 

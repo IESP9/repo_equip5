@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfaxwlngg4wwh"
-path="res://.godot/imported/BasicGreenGrid.png-dd04aeb1dfb76181581e866ebc37470b.ctex"
+path="res://.godot/imported/BasicGreenGrid.png-71b083c1a238152dad9ea2a88cf1df06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Starter Tiles Platformer/BasicGreenGrid.png"
-dest_files=["res://.godot/imported/BasicGreenGrid.png-dd04aeb1dfb76181581e866ebc37470b.ctex"]
+source_file="res://Sprites/Starter Tiles Platformer/BasicGreenGrid.png"
+dest_files=["res://.godot/imported/BasicGreenGrid.png-71b083c1a238152dad9ea2a88cf1df06.ctex"]
 
 [params]
 

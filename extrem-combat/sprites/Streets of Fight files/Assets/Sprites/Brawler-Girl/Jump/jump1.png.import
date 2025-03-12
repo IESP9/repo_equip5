@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c85m6pho5naiy"
-path="res://.godot/imported/jump1.png-239ab0e0fa24a3b9f571079622810c15.ctex"
+path="res://.godot/imported/jump1.png-d3b621369044b2358ddff6ce738c7c02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Jump/jump1.png"
-dest_files=["res://.godot/imported/jump1.png-239ab0e0fa24a3b9f571079622810c15.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Jump/jump1.png"
+dest_files=["res://.godot/imported/jump1.png-d3b621369044b2358ddff6ce738c7c02.ctex"]
 
 [params]
 

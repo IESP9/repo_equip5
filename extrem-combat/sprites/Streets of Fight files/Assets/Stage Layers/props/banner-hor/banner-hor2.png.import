@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ig2j5xfuojwi"
-path="res://.godot/imported/banner-hor2.png-9f5c273741bca0f628d090b1ae2dd0e4.ctex"
+path="res://.godot/imported/banner-hor2.png-ba81dd6ab2c44adf4c2a56d4b443e491.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Stage Layers/props/banner-hor/banner-hor2.png"
-dest_files=["res://.godot/imported/banner-hor2.png-9f5c273741bca0f628d090b1ae2dd0e4.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Stage Layers/props/banner-hor/banner-hor2.png"
+dest_files=["res://.godot/imported/banner-hor2.png-ba81dd6ab2c44adf4c2a56d4b443e491.ctex"]
 
 [params]
 

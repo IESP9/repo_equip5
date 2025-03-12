@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d6ns5q27y1si"
-path="res://.godot/imported/Fire_4_16x16.png-920f906e9effe83820c9d8fe99a65909.ctex"
+path="res://.godot/imported/Fire_4_16x16.png-2395a4851e9180e6986512382b609bd3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Starter Tiles Platformer/FireTiles/Fire_4_16x16.png"
-dest_files=["res://.godot/imported/Fire_4_16x16.png-920f906e9effe83820c9d8fe99a65909.ctex"]
+source_file="res://Sprites/Starter Tiles Platformer/FireTiles/Fire_4_16x16.png"
+dest_files=["res://.godot/imported/Fire_4_16x16.png-2395a4851e9180e6986512382b609bd3.ctex"]
 
 [params]
 

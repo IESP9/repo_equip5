@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgo0ign483a42"
-path="res://.godot/imported/ethereum-1.png-5a384fe69de11bfa6970621c49e5f32d.ctex"
+path="res://.godot/imported/ethereum-1.png-ee6621922cf77ab326164e14a43ffe6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Stage Layers/props/Ethereum/ethereum-1.png"
-dest_files=["res://.godot/imported/ethereum-1.png-5a384fe69de11bfa6970621c49e5f32d.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Stage Layers/props/Ethereum/ethereum-1.png"
+dest_files=["res://.godot/imported/ethereum-1.png-ee6621922cf77ab326164e14a43ffe6b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyhw1d3yybmg7"
-path="res://.godot/imported/shadow.png-495f9944410a24c23963a56c6e59f481.ctex"
+path="res://.godot/imported/shadow.png-908ce834c808f3035ab28516aa400463.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Sprites/shadow.png"
-dest_files=["res://.godot/imported/shadow.png-495f9944410a24c23963a56c6e59f481.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Sprites/shadow.png"
+dest_files=["res://.godot/imported/shadow.png-908ce834c808f3035ab28516aa400463.ctex"]
 
 [params]
 

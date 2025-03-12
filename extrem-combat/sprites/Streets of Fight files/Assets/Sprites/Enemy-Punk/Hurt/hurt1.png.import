@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0b5p1ht8sgf4"
-path="res://.godot/imported/hurt1.png-0dfed2e3ccc99ee1855d1133e0bc2abb.ctex"
+path="res://.godot/imported/hurt1.png-348c44f456d5e079adb0715ffbbc9477.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Hurt/hurt1.png"
-dest_files=["res://.godot/imported/hurt1.png-0dfed2e3ccc99ee1855d1133e0bc2abb.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Hurt/hurt1.png"
+dest_files=["res://.godot/imported/hurt1.png-348c44f456d5e079adb0715ffbbc9477.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://53h105ucic2h"
-path="res://.godot/imported/Green_20_16x16.png-5f591d2d37effffe64df16ab77346530.ctex"
+path="res://.godot/imported/Green_20_16x16.png-e99e15615beb3d073bc3d83164dad0f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Starter Tiles Platformer/BasicGreenTiles/Green_20_16x16.png"
-dest_files=["res://.godot/imported/Green_20_16x16.png-5f591d2d37effffe64df16ab77346530.ctex"]
+source_file="res://Sprites/Starter Tiles Platformer/BasicGreenTiles/Green_20_16x16.png"
+dest_files=["res://.godot/imported/Green_20_16x16.png-e99e15615beb3d073bc3d83164dad0f0.ctex"]
 
 [params]
 

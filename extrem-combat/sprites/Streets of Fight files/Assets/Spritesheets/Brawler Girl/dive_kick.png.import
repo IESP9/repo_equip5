@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8blr4u7yj6wg"
-path="res://.godot/imported/dive_kick.png-33b0b721fc710b51a3e5e47f1801bce1.ctex"
+path="res://.godot/imported/dive_kick.png-be5c47149d37aa4377b318e3df3caa78.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Spritesheets/Brawler Girl/dive_kick.png"
-dest_files=["res://.godot/imported/dive_kick.png-33b0b721fc710b51a3e5e47f1801bce1.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Spritesheets/Brawler Girl/dive_kick.png"
+dest_files=["res://.godot/imported/dive_kick.png-be5c47149d37aa4377b318e3df3caa78.ctex"]
 
 [params]
 

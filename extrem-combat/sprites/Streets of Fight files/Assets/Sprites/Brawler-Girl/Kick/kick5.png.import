@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://scefvufeiwvv"
-path="res://.godot/imported/kick5.png-f5c3d1d1078e574217155fad410dae6c.ctex"
+path="res://.godot/imported/kick5.png-5eaed855d78545ae62fa9ec7a695c281.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Kick/kick5.png"
-dest_files=["res://.godot/imported/kick5.png-f5c3d1d1078e574217155fad410dae6c.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Kick/kick5.png"
+dest_files=["res://.godot/imported/kick5.png-5eaed855d78545ae62fa9ec7a695c281.ctex"]
 
 [params]
 

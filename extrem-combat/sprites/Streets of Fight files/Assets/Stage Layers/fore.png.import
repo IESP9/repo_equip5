@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bobylncctqa24"
-path="res://.godot/imported/fore.png-7efab66a74cc1069cd0a8e5d1d84cd9b.ctex"
+path="res://.godot/imported/fore.png-97079b46445e4d9745e5220f23e8ad8b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Streets of Fight files/Assets/Stage Layers/fore.png"
-dest_files=["res://.godot/imported/fore.png-7efab66a74cc1069cd0a8e5d1d84cd9b.ctex"]
+source_file="res://Sprites/Streets of Fight files/Assets/Stage Layers/fore.png"
+dest_files=["res://.godot/imported/fore.png-97079b46445e4d9745e5220f23e8ad8b.ctex"]
 
 [params]
 
