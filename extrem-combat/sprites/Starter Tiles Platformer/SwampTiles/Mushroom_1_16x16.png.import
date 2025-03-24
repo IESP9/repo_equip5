@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ypo8ljpwh6e3"
-path="res://.godot/imported/Mushroom_1_16x16.png-72aa8fe98f27f5e9db2e0f7524bf53af.ctex"
+path="res://.godot/imported/Mushroom_1_16x16.png-7c70c7cfaf974a721afc47b1c9688744.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Starter Tiles Platformer/SwampTiles/Mushroom_1_16x16.png"
-dest_files=["res://.godot/imported/Mushroom_1_16x16.png-72aa8fe98f27f5e9db2e0f7524bf53af.ctex"]
+source_file="res://sprites/Starter Tiles Platformer/SwampTiles/Mushroom_1_16x16.png"
+dest_files=["res://.godot/imported/Mushroom_1_16x16.png-7c70c7cfaf974a721afc47b1c9688744.ctex"]
 
 [params]
 

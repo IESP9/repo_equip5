@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1olt4vtdbdg"
-path="res://.godot/imported/Roof_1_16x16.png-d92642be4ff98351e82d37b56adff67a.ctex"
+path="res://.godot/imported/Roof_1_16x16.png-efef48769e84a4f562d8d09861825eee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Starter Tiles Platformer/OutsideHouseTiles/Roof_1_16x16.png"
-dest_files=["res://.godot/imported/Roof_1_16x16.png-d92642be4ff98351e82d37b56adff67a.ctex"]
+source_file="res://sprites/Starter Tiles Platformer/OutsideHouseTiles/Roof_1_16x16.png"
+dest_files=["res://.godot/imported/Roof_1_16x16.png-efef48769e84a4f562d8d09861825eee.ctex"]
 
 [params]
 

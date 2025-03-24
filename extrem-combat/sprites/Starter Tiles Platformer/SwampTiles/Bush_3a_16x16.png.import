@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://capou5q1cb5pc"
-path="res://.godot/imported/Bush_3a_16x16.png-32b95c20591881e9b15d49771189c7e3.ctex"
+path="res://.godot/imported/Bush_3a_16x16.png-a1fe3982a13a676cf6aee10e866179ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Starter Tiles Platformer/SwampTiles/Bush_3a_16x16.png"
-dest_files=["res://.godot/imported/Bush_3a_16x16.png-32b95c20591881e9b15d49771189c7e3.ctex"]
+source_file="res://sprites/Starter Tiles Platformer/SwampTiles/Bush_3a_16x16.png"
+dest_files=["res://.godot/imported/Bush_3a_16x16.png-a1fe3982a13a676cf6aee10e866179ec.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8vn5kr0ryxaa"
-path="res://.godot/imported/walk3.png-28606b4c46e5e3a8667494ff1a60b1ef.ctex"
+path="res://.godot/imported/walk3.png-1c7369cf5f652fa248f3fc50d5ee43b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Walk/walk3.png"
-dest_files=["res://.godot/imported/walk3.png-28606b4c46e5e3a8667494ff1a60b1ef.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Walk/walk3.png"
+dest_files=["res://.godot/imported/walk3.png-1c7369cf5f652fa248f3fc50d5ee43b7.ctex"]
 
 [params]
 

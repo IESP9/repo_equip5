@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnsebqq2r6s78"
-path="res://.godot/imported/Water_4_16x16.png-3de6ada5b4a3d366210e47a94585b8d0.ctex"
+path="res://.godot/imported/Water_4_16x16.png-9a51af82ce3c692396b4be5898fd3632.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Starter Tiles Platformer/SwampTiles/Water_4_16x16.png"
-dest_files=["res://.godot/imported/Water_4_16x16.png-3de6ada5b4a3d366210e47a94585b8d0.ctex"]
+source_file="res://sprites/Starter Tiles Platformer/SwampTiles/Water_4_16x16.png"
+dest_files=["res://.godot/imported/Water_4_16x16.png-9a51af82ce3c692396b4be5898fd3632.ctex"]
 
 [params]
 

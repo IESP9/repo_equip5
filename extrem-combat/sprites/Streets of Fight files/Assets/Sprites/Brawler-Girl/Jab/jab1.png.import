@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf8l0jus0h07d"
-path="res://.godot/imported/jab1.png-3778816c6de3c3ab521d108d67aafe3c.ctex"
+path="res://.godot/imported/jab1.png-525da3827454e8163d513d4631d3ef45.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Jab/jab1.png"
-dest_files=["res://.godot/imported/jab1.png-3778816c6de3c3ab521d108d67aafe3c.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Jab/jab1.png"
+dest_files=["res://.godot/imported/jab1.png-525da3827454e8163d513d4631d3ef45.ctex"]
 
 [params]
 

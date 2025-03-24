@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgmvj3pg8umug"
-path="res://.godot/imported/walk10.png-aca1652c99104f6f42d44ec2df65de47.ctex"
+path="res://.godot/imported/walk10.png-f96cb4962b45a8c110e53989ca0a6c39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Walk/walk10.png"
-dest_files=["res://.godot/imported/walk10.png-aca1652c99104f6f42d44ec2df65de47.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Walk/walk10.png"
+dest_files=["res://.godot/imported/walk10.png-f96cb4962b45a8c110e53989ca0a6c39.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://biwagx4gm5fmx"
-path="res://.godot/imported/hurt1.png-634563414cb7e6e52aea9607328c9fb4.ctex"
+path="res://.godot/imported/hurt1.png-ab6c8ad26e3ca8e1360bf808cc7ae418.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Hurt/hurt1.png"
-dest_files=["res://.godot/imported/hurt1.png-634563414cb7e6e52aea9607328c9fb4.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Sprites/Brawler-Girl/Hurt/hurt1.png"
+dest_files=["res://.godot/imported/hurt1.png-ab6c8ad26e3ca8e1360bf808cc7ae418.ctex"]
 
 [params]
 

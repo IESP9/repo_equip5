@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4sbs31gyefjs"
-path="res://.godot/imported/hydrant.png-a479e0765a4c669ba853e4dc28292e20.ctex"
+path="res://.godot/imported/hydrant.png-8fb29aea7831f25d2144233bc53de657.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Stage Layers/props/hydrant.png"
-dest_files=["res://.godot/imported/hydrant.png-a479e0765a4c669ba853e4dc28292e20.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Stage Layers/props/hydrant.png"
+dest_files=["res://.godot/imported/hydrant.png-8fb29aea7831f25d2144233bc53de657.ctex"]
 
 [params]
 

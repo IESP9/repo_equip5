@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r8i0mcd4i0ax"
-path="res://.godot/imported/tileset.png-abfbee1fd46fb23bcd6e8d648d3e2eab.ctex"
+path="res://.godot/imported/tileset.png-139972d3160de3dddc65f0b344cb8ee2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Stage Layers/tileset.png"
-dest_files=["res://.godot/imported/tileset.png-abfbee1fd46fb23bcd6e8d648d3e2eab.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Stage Layers/tileset.png"
+dest_files=["res://.godot/imported/tileset.png-139972d3160de3dddc65f0b344cb8ee2.ctex"]
 
 [params]
 

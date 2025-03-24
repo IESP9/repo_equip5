@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpgj3lj1g31kl"
-path="res://.godot/imported/sushi-2.png-e4a7b053f1fd0b0242ed023993619be7.ctex"
+path="res://.godot/imported/sushi-2.png-848bcb556b7b6d77fc24364d3785ea9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Stage Layers/props/Sushi/sushi-2.png"
-dest_files=["res://.godot/imported/sushi-2.png-e4a7b053f1fd0b0242ed023993619be7.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Stage Layers/props/Sushi/sushi-2.png"
+dest_files=["res://.godot/imported/sushi-2.png-848bcb556b7b6d77fc24364d3785ea9e.ctex"]
 
 [params]
 

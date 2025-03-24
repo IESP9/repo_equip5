@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j1l6crt0qvs1"
-path="res://.godot/imported/punch3.png-df6880739b5b3a79734def195c1c386b.ctex"
+path="res://.godot/imported/punch3.png-b43963295826a8abca3cd5dbdc9c5c68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Punch/punch3.png"
-dest_files=["res://.godot/imported/punch3.png-df6880739b5b3a79734def195c1c386b.ctex"]
+source_file="res://sprites/Streets of Fight files/Assets/Sprites/Enemy-Punk/Punch/punch3.png"
+dest_files=["res://.godot/imported/punch3.png-b43963295826a8abca3cd5dbdc9c5c68.ctex"]
 
 [params]
 
