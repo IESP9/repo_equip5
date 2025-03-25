@@ -6,6 +6,8 @@ const IDLE = "Idle"
 const WALK = "Walk"
 const JUMPING = "Jumping"
 const FALLING = "Falling"
+const PUNCH = "Punch"
+#const SUPERPUNCH = "Superpunch"
 
 
 var personaje_1: Personaje1

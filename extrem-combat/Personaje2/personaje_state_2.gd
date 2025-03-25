@@ -5,7 +5,7 @@ const IDLE = "Idle"
 const RUN = "Run"
 const JUMP = "Jump"
 const FALLING = "Falling"
-const PUCNH = "Punch"
+const PUNCH = "Punch"
 #const LAND = "Land"
 
 

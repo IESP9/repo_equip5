@@ -40,5 +40,5 @@ func physics_update(delta: float) -> void:
 		finished.emit(IDLE)
 
 	# Doble salto
-	if Input.is_action_just_pressed("Spacebar"):
-		finished.emit(JUMPING)
+	#if Input.is_action_just_pressed("Spacebar"):
+	#	finished.emit(JUMPING)

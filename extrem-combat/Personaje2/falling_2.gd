@@ -35,5 +35,5 @@ func physics_update(delta: float) -> void:
 	# Cambiar a estado de IDLE si el jugador toca el suelo
 	if personaje_2.is_on_floor():
 		# Reproducir animación de aterrizaje
-		await get_tree().create_timer(0.3).timeout  # Esperar un poco antes de cambiar a IDLE
+		await get_tree().create_timer(0.2).timeout  # Esperar un poco antes de cambiar a IDLE
 		finished.emit(IDLE)
