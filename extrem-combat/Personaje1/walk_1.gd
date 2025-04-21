@@ -10,8 +10,12 @@ func physics_update(delta: float) -> void:
 
 	if input_direction_x < 0:
 		sprite.flip_h = true
+		%P1Hitbox.position = Vector2(-20,-2)
+		%P2Hitbox.position = Vector2(-26,0.25)
 	if input_direction_x > 0:
 		sprite.flip_h = false
+		%P1Hitbox.position = Vector2(14,-2)
+		%P2Hitbox.position = Vector2(20,0.25)
 	personaje_1.move_and_slide()
 
 

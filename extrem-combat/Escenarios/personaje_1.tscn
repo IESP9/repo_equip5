@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=3 uid="uid://dfymri8bibl5w"]
+[gd_scene load_steps=61 format=3 uid="uid://dfymri8bibl5w"]
 
 [ext_resource type="Script" uid="uid://ca88tgiurtu5n" path="res://Personaje1/player_1.gd" id="1_vwkfm"]
 [ext_resource type="Texture2D" uid="uid://cekkjk5fghv4k" path="res://Personaje2/IdleSprites.png" id="2_rr8ht"]
@@ -353,7 +353,10 @@ animations = [{
 size = Vector2(18.25, 38.76)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t662b"]
-size = Vector2(5, 5.5)
+size = Vector2(14.625, 8.1875)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_srcvc"]
+size = Vector2(27, 17.5)
 
 [node name="Personaje1" type="CharacterBody2D"]
 script = ExtResource("1_vwkfm")
@@ -373,8 +376,10 @@ unique_name_in_owner = true
 position = Vector2(-2, -1.4375)
 scale = Vector2(0.270833, 0.328776)
 sprite_frames = SubResource("SpriteFrames_86s8f")
-animation = &"idle"
+animation = &"superpunch"
 autoplay = "idle"
+frame = 6
+frame_progress = 1.0
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2(-3, 0)
@@ -398,11 +403,20 @@ script = ExtResource("24_weu01")
 [node name="Punch" type="Node" parent="StateMachine"]
 script = ExtResource("11_0bmhs")
 
-[node name="coliders" type="Node" parent="."]
+[node name="PunchHitbox" type="Area2D" parent="."]
 
-[node name="HandColiders" type="Node" parent="coliders"]
-
-[node name="RightHand" type="CollisionShape2D" parent="."]
-position = Vector2(5, 4)
+[node name="P1Hitbox" type="CollisionShape2D" parent="PunchHitbox"]
+unique_name_in_owner = true
+position = Vector2(14, -2)
 shape = SubResource("RectangleShape2D_t662b")
+disabled = true
 debug_color = Color(0.986081, 0, 0.327269, 0.42)
+
+[node name="P2Hitbox" type="CollisionShape2D" parent="PunchHitbox"]
+unique_name_in_owner = true
+position = Vector2(20, 0.25)
+shape = SubResource("RectangleShape2D_srcvc")
+disabled = true
+debug_color = Color(0.712254, 0.484644, 0.0075005, 0.42)
+
+[connection signal="body_entered" from="PunchHitbox" to="." method="_on_punch_hitbox_body_entered"]

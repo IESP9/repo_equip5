@@ -1,4 +1,4 @@
-[gd_scene load_steps=69 format=3 uid="uid://cuy6jpghi4p28"]
+[gd_scene load_steps=71 format=3 uid="uid://cuy6jpghi4p28"]
 
 [ext_resource type="Script" uid="uid://b3rxqt3ob0v7i" path="res://Personaje2/personaje_2.gd" id="1_du332"]
 [ext_resource type="Texture2D" uid="uid://cekkjk5fghv4k" path="res://Personaje2/IdleSprites.png" id="2_5tyxx"]
@@ -421,6 +421,12 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uhcw6"]
 size = Vector2(19.0625, 40.25)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6rwh0"]
+size = Vector2(15, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ma1ji"]
+size = Vector2(25, 17)
+
 [node name="Personaje2" type="CharacterBody2D"]
 script = ExtResource("1_du332")
 
@@ -453,3 +459,21 @@ script = ExtResource("10_du332")
 
 [node name="Punch" type="Node" parent="StateMachine"]
 script = ExtResource("12_7blgy")
+
+[node name="PunchHitbox" type="Area2D" parent="."]
+
+[node name="P1Hitbox2" type="CollisionShape2D" parent="PunchHitbox"]
+unique_name_in_owner = true
+position = Vector2(15.5, -2)
+shape = SubResource("RectangleShape2D_6rwh0")
+disabled = true
+debug_color = Color(0, 0.640102, 0.354939, 0.42)
+
+[node name="P2Hitbox2" type="CollisionShape2D" parent="PunchHitbox"]
+unique_name_in_owner = true
+position = Vector2(20.54, 0.5)
+shape = SubResource("RectangleShape2D_ma1ji")
+disabled = true
+debug_color = Color(0.619162, 0.3549, 1, 0.42)
+
+[connection signal="body_entered" from="PunchHitbox" to="." method="_on_punch_hitbox_body_entered"]

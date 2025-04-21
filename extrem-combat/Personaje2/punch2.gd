@@ -37,8 +37,11 @@ func _process(delta):
 func _Play_Attack_Animation():
 	if currentAttack == 0:
 		sprite.play("punch")
+		%P1Hitbox2.set_deferred("disabled", false)
 	elif currentAttack == 1:
+		%P1Hitbox2.set_deferred("disabled", true)
 		sprite.play("superpunch")
+		%P2Hitbox2.set_deferred("disabled", false)
 	else:
 		# Si se excede el número de ataques, resetea el combo
 		_Reset_Combo()
@@ -48,6 +51,8 @@ func _Play_Attack_Animation():
 	time = timeTillNextInput
 
 func _Reset_Combo():
+	%P1Hitbox2.set_deferred("disabled", true)
+	%P2Hitbox2.set_deferred("disabled", true)
 	isInCombo = false
 	currentAttack = 0
 	time = timeTillNextInput

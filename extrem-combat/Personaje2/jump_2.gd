@@ -2,7 +2,7 @@ extends PersonajeState2
 
 # Variables para controlar el salto
 var jump_velocity := -400.0  # Velocidad inicial del salto 
-var gravity := 800.0  # Gravedad 
+var gravity := 820.0  # Gravedad 
 var velocity_y := 1.0  # Velocidad vertical
 
 func enter(previous_state_path: String, data := {}) -> void:

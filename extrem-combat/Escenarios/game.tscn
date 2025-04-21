@@ -563,11 +563,11 @@ layer_1/tile_data = PackedInt32Array(-65549, 196608, 14, -13, 196608, 15, 65523,
 layer_2/name = "Backdrop"
 
 [node name="Personaje1" parent="." instance=ExtResource("2_omuru")]
-position = Vector2(-44, 47)
+position = Vector2(-113, 48)
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(7, -51)
+position = Vector2(-4, -50)
 zoom = Vector2(2, 2)
 
 [node name="Personaje2" parent="." instance=ExtResource("3_t3h64")]
-position = Vector2(-81, 47)
+position = Vector2(-47, 47)

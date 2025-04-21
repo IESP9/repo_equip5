@@ -2,7 +2,7 @@ extends PersonajeState1
 
 # Variables para controlar el salto
 var jump_velocity := -400.0  # Velocidad inicial del salto 
-var gravity := 800.0  # Gravedad 
+var gravity := 820.0  # Gravedad 
 var velocity_y := 1.0  # Velocidad vertical
 
 func enter(previous_state_path: String, data := {}) -> void:
@@ -25,9 +25,10 @@ func physics_update(delta: float) -> void:
 	# Girar sprite
 	if input_direction_x < 0:
 		sprite.flip_h = true
+		%P1Hitbox.position = Vector2(-20,-2)
 	elif input_direction_x > 0:
 		sprite.flip_h = false
-
+		%P1Hitbox.position = Vector2(14,-2)
 	# Mover al jugador
 	personaje_1.move_and_slide()
 
