@@ -1,22 +1,31 @@
 class_name Personaje2
-extends CharacterBody2D
+extends PersonajeState2
+
 var gui: Node = null
+@onready var idleState = %Idle
+@onready var hurtTimer = %HurtTimer
 var health = 100
 var speed = 250.0
 var jump_velocity = -350.0
+var invencible = false 
 
 func _ready() -> void:
 	gui = get_tree().get_root().find_child("GUI", true, false)
 
 func take_damage(damage):
-	health -= damage
-	gui.update_player2_health(health)
-	print("Vida restante: " + str(health))
-	if health <= 0:
-		print(str(self.name) + " ha muerto")
-		queue_free()
-
-
+	if !invencible:
+		health -= damage
+		#sprite.play("hurt")
+		gui.update_player2_health(health)
+		print("Vida restante: " + str(health))
+		#if health <= 0:
+			#print(str(self.name) + " ha muerto")
+			#sprite.play("die")
+			#queue_free()
+		#idleState.finished.emit("Hurt")
+		#if health <= 0:
+			#queue_free()
+		$StateMachine/Hurt.finished.emit("Hurt")
 
 func _on_punch_hitbox_body_entered(body: Node2D) -> void:
 	if body.has_method("take_damage"):

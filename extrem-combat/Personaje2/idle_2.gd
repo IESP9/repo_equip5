@@ -1,4 +1,6 @@
 extends PersonajeState2
+
+
 func enter(previous_state_path: String, data := {}) -> void:
 	personaje_2.velocity.x = 0.0
 	sprite.play("idle")

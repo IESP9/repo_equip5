@@ -6,6 +6,8 @@ const RUN = "Run"
 const JUMP = "Jump"
 const FALLING = "Falling"
 const PUNCH = "Punch"
+const HURT = "Hurt"
+const DIE = "Die"
 #const LAND = "Land"
 
 

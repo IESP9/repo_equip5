@@ -7,6 +7,8 @@ const WALK = "Walk"
 const JUMPING = "Jumping"
 const FALLING = "Falling"
 const PUNCH = "Punch"
+const HURT = "Hurt"
+const DIE = "Die"
 #const SUPERPUNCH = "Superpunch"
 
 

@@ -6,7 +6,9 @@ var max_fall_speed := 600.0  # Velocidad máxima de caída
 
 func enter(previous_state_path: String, data := {}) -> void:
 	# Mantener la animación de salto durante la caída
+	velocity_y = 0.0
 	sprite.play("jump")  
+	
 
 
 func physics_update(delta: float) -> void:
