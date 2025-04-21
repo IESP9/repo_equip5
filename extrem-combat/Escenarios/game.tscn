@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://b5d6dv8h2ent2"]
+[gd_scene load_steps=7 format=3 uid="uid://b5d6dv8h2ent2"]
 
 [ext_resource type="Texture2D" uid="uid://r8i0mcd4i0ax" path="res://sprites/Streets of Fight files/Assets/Stage Layers/tileset.png" id="1_t3t7a"]
 [ext_resource type="PackedScene" uid="uid://dfymri8bibl5w" path="res://Escenarios/personaje_1.tscn" id="2_omuru"]
 [ext_resource type="PackedScene" uid="uid://cuy6jpghi4p28" path="res://Escenarios/personaje_2.tscn" id="3_t3h64"]
+[ext_resource type="PackedScene" uid="uid://2wegoe6gr70u" path="res://Escenarios/GUI.tscn" id="4_m4sff"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aru85"]
 texture = ExtResource("1_t3t7a")
@@ -551,6 +552,7 @@ physics_layer_0/collision_mask = 2
 sources/0 = SubResource("TileSetAtlasSource_aru85")
 
 [node name="Game" type="Node2D"]
+position = Vector2(528, 527)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_mtcdc")
@@ -571,3 +573,5 @@ zoom = Vector2(2, 2)
 
 [node name="Personaje2" parent="." instance=ExtResource("3_t3h64")]
 position = Vector2(-47, 47)
+
+[node name="GUI" parent="." instance=ExtResource("4_m4sff")]
