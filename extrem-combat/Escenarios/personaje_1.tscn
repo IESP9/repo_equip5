@@ -325,7 +325,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7gtmu")
 }],
-"loop": true,
+"loop": false,
 "name": &"die",
 "speed": 10.0
 }, {
@@ -564,10 +564,8 @@ unique_name_in_owner = true
 position = Vector2(-2, 0)
 scale = Vector2(0.270833, 0.328776)
 sprite_frames = SubResource("SpriteFrames_86s8f")
-animation = &"die"
+animation = &"idle"
 autoplay = "idle"
-frame = 9
-frame_progress = 0.271187
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2(-3, 0.95)

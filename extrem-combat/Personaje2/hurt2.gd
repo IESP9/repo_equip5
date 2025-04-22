@@ -14,6 +14,8 @@ func get_hurt():
 		#%Collision.set_deferred("disabled", true)
 		print(str(get_parent().get_parent().name) + " ha muerto")
 		personaje_2.hurtTimer.stop()
+		sprite.play("die")
+		await sprite.animation_finished
 		personaje_2.queue_free()
 		
 func _on_hurt_timer_timeout() -> void:

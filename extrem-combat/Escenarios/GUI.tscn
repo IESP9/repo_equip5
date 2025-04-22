@@ -42,9 +42,9 @@ texture_progress = SubResource("AtlasTexture_g61un")
 
 [node name="P2HealthBar" type="TextureProgressBar" parent="CanvasLayer"]
 unique_name_in_owner = true
-offset_left = 1153.0
+offset_left = 1152.0
 offset_top = 29.0
-offset_right = 1195.0
+offset_right = 1194.0
 offset_bottom = 69.0
 rotation = -3.14159
 scale = Vector2(4, 4)
