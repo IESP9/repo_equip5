@@ -1,20 +1,39 @@
-[gd_scene load_steps=3 format=3 uid="uid://ba13rx0h075ve"]
+[gd_scene load_steps=4 format=3 uid="uid://ba13rx0h075ve"]
 
 [ext_resource type="Texture2D" uid="uid://bdubg6ftury47" path="res://GUI/ChatGPT Image 22 d’abr. de 2025, 20_15_53.png" id="1_gyec3"]
+[ext_resource type="Script" uid="uid://ky4j8xq4puq5" path="res://GUI/player_slot.gd" id="2_thbti"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_thbti"]
 texture = ExtResource("1_gyec3")
-region_rect = Rect2(99.0663, 128.834, 820.149, 801.078)
+region_rect = Rect2(124, 150, 782, 751)
 
 [node name="playerSlot" type="Panel"]
 custom_minimum_size = Vector2(100, 100)
 offset_right = 40.0
 offset_bottom = 40.0
 theme_override_styles/panel = SubResource("StyleBoxTexture_thbti")
+script = ExtResource("2_thbti")
 
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="TextureButton" type="TextureButton" parent="."]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -40.0
+offset_right = 38.0
+offset_bottom = 38.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="Select" type="Line2D" parent="."]
+visible = false
+points = PackedVector2Array(6, 5, 21, 5, 94, 6, 93, 94, 5, 94)
+closed = true
+width = 3.0
+default_color = Color(0.194368, 0.395099, 2.88785e-07, 1)
+
+[connection signal="pressed" from="TextureButton" to="." method="_button_pressed"]
