@@ -9,7 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://btu3def2rt7gh" path="res://Personaje2/JumpSprites.png" id="6_t662b"]
 [ext_resource type="Texture2D" uid="uid://dhc5c3ax1l3l7" path="res://Personaje2/RunSprites.png" id="7_srcvc"]
 [ext_resource type="Script" uid="uid://dn3egok3p6l5u" path="res://Personaje1/punch.gd" id="11_0bmhs"]
-[ext_resource type="Script" uid="uid://cfyh6kn3yxuq7" path="res://hurt.gd" id="14_ome44"]
+[ext_resource type="Script" uid="uid://cfyh6kn3yxuq7" path="res://Personaje1/hurt.gd" id="14_ome44"]
 [ext_resource type="Script" uid="uid://4usc4jxjrsvb" path="res://StateMachine/state_machine.gd" id="16_l31hw"]
 [ext_resource type="Script" uid="uid://bnruiiwhyygb5" path="res://Personaje1/idle_1.gd" id="21_3v40f"]
 [ext_resource type="Script" uid="uid://dd64evetcttdf" path="res://Personaje1/walk_1.gd" id="22_c3g7p"]

@@ -1,0 +1,86 @@
+[gd_scene load_steps=6 format=3 uid="uid://do1k47h4a3h2t"]
+
+[ext_resource type="Script" uid="uid://ceu88b3nh5tux" path="res://GUI/menu.gd" id="1_08ryc"]
+[ext_resource type="Texture2D" uid="uid://yaxpq3xbhqyi" path="res://GUI/01b5b92b-1028-4a7f-8c61-936d13a001a3.png" id="2_08ryc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_08ryc"]
+bg_color = Color(0.34902, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a0hnq"]
+bg_color = Color(0.34902, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hupu4"]
+bg_color = Color(0.34902, 0, 0, 1)
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_08ryc")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.529412, 0.807843, 0.921569, 1)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -356.0
+offset_top = -175.0
+offset_right = 323.0
+offset_bottom = 201.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_08ryc")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -184.0
+offset_top = -119.0
+offset_right = 147.0
+offset_bottom = 132.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 22
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_08ryc")
+text = "JUGAR"
+
+[node name="Controls" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_a0hnq")
+text = "CONTROLES"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_hupu4")
+text = "SALIR"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(563, 337)
+zoom = Vector2(0.63, 0.63)
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Controls" to="." method="_on_controls_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]

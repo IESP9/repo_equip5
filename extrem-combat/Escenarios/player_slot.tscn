@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://ba13rx0h075ve"]
+
+[ext_resource type="Texture2D" uid="uid://bdubg6ftury47" path="res://GUI/ChatGPT Image 22 d’abr. de 2025, 20_15_53.png" id="1_gyec3"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_thbti"]
+texture = ExtResource("1_gyec3")
+region_rect = Rect2(99.0663, 128.834, 820.149, 801.078)
+
+[node name="playerSlot" type="Panel"]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_thbti")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Select" type="Line2D" parent="."]
