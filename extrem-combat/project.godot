@@ -11,9 +11,17 @@ config_version=5
 [application]
 
 config/name="Extrem Combat"
-run/main_scene="res://Escenarios/game.tscn"
+run/main_scene="uid://do1k47h4a3h2t"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=270
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
 
 [input]
 

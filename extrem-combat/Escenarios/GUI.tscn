@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://2wegoe6gr70u"]
 
 [ext_resource type="Script" uid="uid://cvyc1pwe4k1x8" path="res://GUI/gui.gd" id="1_ei5m6"]
-[ext_resource type="Texture2D" uid="uid://bau5vsg3mii3h" path="res://06.png" id="2_4coej"]
+[ext_resource type="Texture2D" uid="uid://bau5vsg3mii3h" path="res://sprites/06.png" id="2_4coej"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g8smx"]
 atlas = ExtResource("2_4coej")
@@ -21,9 +21,10 @@ region = Rect2(3, 85, 42, 7)
 
 [node name="GUI" type="Control"]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_right = 2.394
+anchor_bottom = 1.867
+offset_right = -408.12
+offset_bottom = -0.0900269
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ei5m6")
@@ -34,7 +35,7 @@ script = ExtResource("1_ei5m6")
 unique_name_in_owner = true
 offset_right = 42.0
 offset_bottom = 7.0
-scale = Vector2(4, 4)
+scale = Vector2(2.5, 2.5)
 min_value = -10.0
 value = 100.0
 texture_under = SubResource("AtlasTexture_g8smx")
@@ -42,12 +43,12 @@ texture_progress = SubResource("AtlasTexture_g61un")
 
 [node name="P2HealthBar" type="TextureProgressBar" parent="CanvasLayer"]
 unique_name_in_owner = true
-offset_left = 1152.0
-offset_top = 29.0
-offset_right = 1194.0
-offset_bottom = 69.0
+offset_left = 480.0
+offset_top = 18.0
+offset_right = 522.0
+offset_bottom = 25.0
 rotation = -3.14159
-scale = Vector2(4, 4)
+scale = Vector2(2.5, 2.5)
 min_value = -10.0
 value = 100.0
 texture_under = SubResource("AtlasTexture_4coej")
