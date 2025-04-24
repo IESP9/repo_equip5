@@ -628,7 +628,7 @@ autoplay = "idle"
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(-2, 0.85)
+position = Vector2(-2, 0.95)
 shape = SubResource("RectangleShape2D_uhcw6")
 
 [node name="StateMachine" type="Node" parent="."]
