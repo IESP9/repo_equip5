@@ -13,11 +13,6 @@ func enter(previous_state_path: String, data := {}) -> void:
 	currentAttack = 0
 	time = timeTillNextInput
 	state_label.text = "Punch"
-	
-	isInCombo = true
-	currentAttack = 0
-	print("P1 punch")
-	_Play_Attack_Animation()
 
 func physics_update(delta: float) -> void:
 	#
@@ -26,13 +21,15 @@ func physics_update(delta: float) -> void:
 		#return
 	
 	if Input.is_action_just_pressed("Punch"):
+		print("P1 punch")
+		if not isInCombo:
 			# Inicia el combo
-
-		if isInCombo and time > 0:
-			print("Empezar punch 2")
+			isInCombo = true
+			currentAttack = 0
+			_Play_Attack_Animation()
+		elif isInCombo and time > 0:
 			# Avanza al siguiente ataque en el combo
 			currentAttack += 1
-			print("P2 punch")
 			_Play_Attack_Animation()
 
 	if isInCombo:

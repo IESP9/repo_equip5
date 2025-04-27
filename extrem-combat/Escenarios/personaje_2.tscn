@@ -625,6 +625,7 @@ scale = Vector2(0.272135, 0.334635)
 sprite_frames = SubResource("SpriteFrames_crvg2")
 animation = &"idle"
 autoplay = "idle"
+frame_progress = 0.942686
 flip_h = true
 
 [node name="Collision" type="CollisionShape2D" parent="."]
@@ -675,5 +676,15 @@ unique_name_in_owner = true
 wait_time = 0.6
 one_shot = true
 
+[node name="InvencibleTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+wait_time = 0.1
+one_shot = true
+
+[node name="DeathTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+
 [connection signal="body_entered" from="PunchHitbox" to="." method="_on_punch_hitbox_body_entered"]
 [connection signal="timeout" from="HurtTimer" to="StateMachine/Hurt" method="_on_hurt_timer_timeout"]
+[connection signal="timeout" from="InvencibleTimer" to="StateMachine/Hurt" method="_on_invencible_timer_timeout"]
+[connection signal="timeout" from="DeathTimer" to="." method="_on_death_timer_timeout"]

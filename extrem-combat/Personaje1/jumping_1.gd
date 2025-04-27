@@ -22,13 +22,15 @@ func physics_update(delta: float) -> void:
 	var input_direction_x := Input.get_axis("Left", "Right")
 	personaje_1.velocity.x = personaje_1.speed * input_direction_x
 
-	# Girar sprite
-	if input_direction_x < 0:
-		sprite.flip_h = true
-		%P1Hitbox.position = Vector2(-20,-2)
-	elif input_direction_x > 0:
-		sprite.flip_h = false
-		%P1Hitbox.position = Vector2(14,-2)
+	personaje_1.adjust_punch_collisions_and_flip_sprite(input_direction_x)
+
+	## Girar sprite
+	#if input_direction_x < 0:
+		#sprite.flip_h = true
+		#%P1Hitbox.position = Vector2(-20,-2)
+	#elif input_direction_x > 0:
+		#sprite.flip_h = false
+		#%P1Hitbox.position = Vector2(14,-2)
 	# Mover al jugador
 	personaje_1.move_and_slide()
 

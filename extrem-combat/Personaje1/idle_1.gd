@@ -9,6 +9,9 @@ func physics_update(delta: float) -> void:
 
 	personaje_1.move_and_slide()
 
+	if Input.is_action_just_pressed("Punch"):
+		finished.emit(PUNCH)
+
 	if not personaje_1.is_on_floor():
 		finished.emit(FALLING)
 	if Input.is_action_just_pressed("Spacebar"):

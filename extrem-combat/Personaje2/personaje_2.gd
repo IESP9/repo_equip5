@@ -1,10 +1,12 @@
 class_name Personaje2
-extends PersonajeState2
+extends CharacterBody2D
 
 var gui: Node = null
 @onready var idleState = %Idle
 @onready var hurtTimer = %HurtTimer
-var health = 100
+@onready var deathTimer = %DeathTimer
+@onready var invencibleTimer = %InvencibleTimer
+var health = 50 #100
 var speed = 250.0
 var jump_velocity = -350.0
 var invencible = false 
@@ -31,3 +33,7 @@ func _on_punch_hitbox_body_entered(body: Node2D) -> void:
 	if body.has_method("take_damage"):
 		#print("Ha recibido daño") 
 		body.take_damage(10) 
+
+
+func _on_death_timer_timeout() -> void:
+	queue_free()
