@@ -625,6 +625,7 @@ scale = Vector2(0.272135, 0.334635)
 sprite_frames = SubResource("SpriteFrames_crvg2")
 animation = &"idle"
 autoplay = "idle"
+flip_h = true
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 unique_name_in_owner = true
@@ -657,14 +658,14 @@ script = ExtResource("15_7qlf1")
 
 [node name="P1Hitbox2" type="CollisionShape2D" parent="PunchHitbox"]
 unique_name_in_owner = true
-position = Vector2(15.5, -2)
+position = Vector2(-20, -2)
 shape = SubResource("RectangleShape2D_6rwh0")
 disabled = true
 debug_color = Color(0, 0.640102, 0.354939, 0.42)
 
 [node name="P2Hitbox2" type="CollisionShape2D" parent="PunchHitbox"]
 unique_name_in_owner = true
-position = Vector2(20.54, 0.5)
+position = Vector2(-25, 0.5)
 shape = SubResource("RectangleShape2D_ma1ji")
 disabled = true
 debug_color = Color(0.619162, 0.3549, 1, 0.42)
