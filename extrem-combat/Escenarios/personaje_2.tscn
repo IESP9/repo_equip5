@@ -628,7 +628,7 @@ autoplay = "idle"
 frame_progress = 0.942686
 flip_h = true
 
-[node name="Collision" type="CollisionShape2D" parent="."]
+[node name="Collision2" type="CollisionShape2D" parent="."]
 unique_name_in_owner = true
 position = Vector2(-2, 0.95)
 shape = SubResource("RectangleShape2D_uhcw6")

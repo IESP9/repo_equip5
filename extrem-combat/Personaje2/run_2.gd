@@ -19,6 +19,8 @@ func physics_update(delta: float) -> void:
 
 	if not personaje_2.is_on_floor():
 		finished.emit(FALLING)
+	if Input.is_action_just_pressed("Punch2"):
+		finished.emit(PUNCH)
 	if Input.is_action_just_pressed("Up2"):
 		finished.emit(JUMP)
 	elif is_equal_approx(input_direction_x, 0.0):

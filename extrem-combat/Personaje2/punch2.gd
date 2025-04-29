@@ -8,20 +8,36 @@ var currentAttack = 0
 var idleDelay = 0.288
 var idleTimer = 0
 
-func _ready():
+func enter(previous_state_path: String, data := {}) -> void:
+	print("Empezar punch 1")
+	currentAttack = 0
 	time = timeTillNextInput
-
-func _process(delta):
+	
+	isInCombo = true
+	currentAttack = 0
+	print("P1 punch")
+	_Play_Attack_Animation()
+	
+func physics_update(delta: float) -> void:
 	if Input.is_action_just_pressed("Punch2"):
-		if not isInCombo:
 			# Inicia el combo
-			isInCombo = true
-			currentAttack = 0
-			_Play_Attack_Animation()
-		elif isInCombo and time > 0:
+
+		if isInCombo and time > 0:
+			print("Empezar punch 2")
 			# Avanza al siguiente ataque en el combo
 			currentAttack += 1
+			print("P2 punch")
 			_Play_Attack_Animation()
+	#if Input.is_action_just_pressed("Punch2"):
+		#if not isInCombo:
+			## Inicia el combo
+			#isInCombo = true
+			#currentAttack = 0
+			#_Play_Attack_Animation()
+		#elif isInCombo and time > 0:
+			## Avanza al siguiente ataque en el combo
+			#currentAttack += 1
+			#_Play_Attack_Animation()
 
 	if isInCombo:
 		time -= delta
@@ -32,7 +48,7 @@ func _process(delta):
 	if idleTimer > 0:
 		idleTimer -= delta
 		if idleTimer <= 0:
-			sprite.play("idle")
+			finished.emit(IDLE)
 
 func _Play_Attack_Animation():
 	if currentAttack == 0:

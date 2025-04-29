@@ -18,6 +18,7 @@ func get_hurt():
 		print(str(get_parent().get_parent().name) + " ha muerto")
 		personaje_1.hurtTimer.stop()
 		sprite.play("die")
+		%Collision1.set_deferred("disabled", true)
 		#await sprite.animation_finished
 		#personaje_1.queue_free()
 

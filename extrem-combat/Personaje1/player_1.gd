@@ -43,7 +43,7 @@ func take_damage(damage):
 			#queue_free()
 		#enter_hurt = true
 		$StateMachine/Hurt.finished.emit("Hurt")
-
+		
 
 func _on_death_timer_timeout() -> void:
 	queue_free()

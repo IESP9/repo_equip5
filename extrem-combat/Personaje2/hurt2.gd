@@ -12,11 +12,14 @@ func get_hurt():
 	sprite.play("idle")
 	sprite.play("hurt")
 	personaje_2.move_and_slide()
+	
+	
 	if personaje_2.health <= 0:
 		personaje_2.deathTimer.start()
 		#%Collision.set_deferred("disabled", true)
 		print(str(get_parent().get_parent().name) + " ha muerto")
 		personaje_2.hurtTimer.stop()
+		%Collision2.set_deferred("disabled", true)
 		sprite.play("die")
 		#await sprite.animation_finished
 		#personaje_2.queue_free()

@@ -3989,7 +3989,7 @@ offset_right = -138.0
 offset_bottom = 0.0
 
 [node name="Personaje2" parent="." instance=ExtResource("4_631av")]
-position = Vector2(282, 95)
+position = Vector2(282, 96)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(194, 91)

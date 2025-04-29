@@ -9,6 +9,8 @@ func enter(previous_state_path: String, data := {}) -> void:
 func physics_update(delta: float) -> void:
 
 	personaje_2.move_and_slide()
+	if Input.is_action_just_pressed("Punch2"):
+		finished.emit(PUNCH)
 
 	if not personaje_2.is_on_floor():
 		finished.emit(FALLING)

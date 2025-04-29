@@ -551,6 +551,7 @@ script = ExtResource("1_vwkfm")
 
 [node name="StateLabel" type="Label" parent="."]
 unique_name_in_owner = true
+visible = false
 offset_left = -20.0
 offset_top = -27.0
 offset_right = 21.0
@@ -566,7 +567,8 @@ sprite_frames = SubResource("SpriteFrames_86s8f")
 animation = &"die"
 autoplay = "idle"
 
-[node name="Collision" type="CollisionShape2D" parent="."]
+[node name="Collision1" type="CollisionShape2D" parent="."]
+unique_name_in_owner = true
 position = Vector2(-3, 0.95)
 shape = SubResource("RectangleShape2D_ax4uk")
 
