@@ -8,6 +8,7 @@ var currentAttack = 0
 var idleDelay = 0.288  # Tiempo de espera antes de volver a Idle
 var idleTimer = 0
 
+
 func enter(previous_state_path: String, data := {}) -> void:
 	print("Empezar punch 1")
 	currentAttack = 0
@@ -58,6 +59,7 @@ func _Play_Attack_Animation():
 		%P2Hitbox.set_deferred("disabled", false)
 	else:
 		# Si se excede el número de ataques, resetea el combo
+		await get_tree().create_timer(0.350).timeout
 		_Reset_Combo()
 		return
 

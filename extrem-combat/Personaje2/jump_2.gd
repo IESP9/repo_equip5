@@ -21,11 +21,13 @@ func physics_update(delta: float) -> void:
 	var input_direction_x := Input.get_axis("Left2", "Right2")
 	personaje_2.velocity.x = personaje_2.speed * input_direction_x
 
+	personaje_2.adjust_punch_collisions_and_flip_sprite(input_direction_x)
+
 	# Girar sprite
-	if input_direction_x < 0:
-		sprite.flip_h = true
-	elif input_direction_x > 0:
-		sprite.flip_h = false
+	#if input_direction_x < 0:
+		#sprite.flip_h = true
+	#elif input_direction_x > 0:
+		#sprite.flip_h = false
 
 	# Mover al jugador
 	personaje_2.move_and_slide()
@@ -37,6 +39,8 @@ func physics_update(delta: float) -> void:
 	# Cambiar a estado de caminar si el jugador toca el suelo
 	if personaje_2.is_on_floor():
 		finished.emit(IDLE)
+		
+		
 
 	# Doble salto
 	#if Input.is_action_just_pressed("Up2"):
