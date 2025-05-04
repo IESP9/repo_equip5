@@ -60,7 +60,7 @@ func _Play_Attack_Animation():
 		%P2Hitbox2.set_deferred("disabled", false)
 	else:
 		# Si se excede el número de ataques, resetea el combo
-		await get_tree().create_timer(0.350).timeout
+		await get_tree().create_timer(0.250).timeout
 		_Reset_Combo()
 		return
 
