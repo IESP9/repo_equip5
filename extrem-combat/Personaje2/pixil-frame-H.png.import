@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvk50s0b6afaw"
-path="res://.godot/imported/yhAnYo.png-af7a9de44e1556eab30d3df93d2013e8.ctex"
+uid="uid://dblxpf6ohnlne"
+path="res://.godot/imported/pixil-frame-H.png-318baa25bcfcd2576244101f6374a602.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://yhAnYo.png"
-dest_files=["res://.godot/imported/yhAnYo.png-af7a9de44e1556eab30d3df93d2013e8.ctex"]
+source_file="res://Personaje2/pixil-frame-H.png"
+dest_files=["res://.godot/imported/pixil-frame-H.png-318baa25bcfcd2576244101f6374a602.ctex"]
 
 [params]
 
