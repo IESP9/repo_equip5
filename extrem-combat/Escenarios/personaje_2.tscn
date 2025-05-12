@@ -683,6 +683,8 @@ one_shot = true
 
 [node name="DeathTimer" type="Timer" parent="."]
 unique_name_in_owner = true
+wait_time = 3.0
+one_shot = true
 
 [connection signal="body_entered" from="PunchHitbox" to="." method="_on_punch_hitbox_body_entered"]
 [connection signal="timeout" from="HurtTimer" to="StateMachine/Hurt" method="_on_hurt_timer_timeout"]

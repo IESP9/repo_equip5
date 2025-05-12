@@ -62,6 +62,7 @@ theme_override_constants/separation = 22
 
 [node name="Play" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_a0hnq")
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_08ryc")
@@ -69,6 +70,7 @@ text = "JUGAR"
 
 [node name="Controls" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_a0hnq")
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_a0hnq")
@@ -76,6 +78,7 @@ text = "CONTROLES"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_a0hnq")
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_hupu4")

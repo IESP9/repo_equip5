@@ -46,3 +46,4 @@ func adjust_punch_collisions_and_flip_sprite(input_direction_x) -> void:
 
 func _on_death_timer_timeout() -> void:
 	queue_free()
+	get_tree().change_scene_to_file("res://Escenarios/win_1.tscn")

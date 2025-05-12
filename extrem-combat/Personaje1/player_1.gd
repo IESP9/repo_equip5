@@ -47,3 +47,4 @@ func take_damage(damage):
 
 func _on_death_timer_timeout() -> void:
 	queue_free()
+	get_tree().change_scene_to_file("res://Escenarios/win_2.tscn")

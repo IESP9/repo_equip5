@@ -1,0 +1,84 @@
+[gd_scene load_steps=4 format=3 uid="uid://bac3oobymwdkv"]
+
+[ext_resource type="FontFile" uid="uid://u87gwag3gnsm" path="res://GUI/PIXELADE.TTF" id="1_c4xyn"]
+[ext_resource type="Script" uid="uid://de5ufa3dmwkrx" path="res://Escenarios/win_2.gd" id="1_m0oe6"]
+[ext_resource type="Texture2D" uid="uid://2838at2v743h" path="res://sprites/WinInfierno.png" id="2_m0oe6"]
+
+[node name="Win2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_m0oe6")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 480.0
+offset_bottom = 270.0
+color = Color(0.517647, 0, 0, 1)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.498958
+anchor_top = 0.498148
+anchor_right = 0.501042
+anchor_bottom = 0.501852
+offset_left = -239.5
+offset_top = -134.5
+offset_right = 239.5
+offset_bottom = 134.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_m0oe6")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.198
+anchor_right = 0.5
+anchor_bottom = 0.198
+offset_left = -87.0
+offset_top = -20.46
+offset_right = 76.0
+offset_bottom = 20.54
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_c4xyn")
+theme_override_font_sizes/font_size = 40
+text = "Player 2 Win"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Volver a Jugar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_c4xyn")
+text = "Volver a Jugar"
+
+[node name="Salir" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_c4xyn")
+text = "Salir"
+
+[connection signal="pressed" from="VBoxContainer/Volver a Jugar" to="." method="_on_volver_a_jugar_pressed"]
+[connection signal="pressed" from="VBoxContainer/Salir" to="." method="_on_salir_pressed"]
