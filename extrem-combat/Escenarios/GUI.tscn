@@ -1,23 +1,23 @@
 [gd_scene load_steps=7 format=3 uid="uid://2wegoe6gr70u"]
 
 [ext_resource type="Script" uid="uid://cvyc1pwe4k1x8" path="res://GUI/gui.gd" id="1_ei5m6"]
-[ext_resource type="Texture2D" uid="uid://bau5vsg3mii3h" path="res://sprites/06.png" id="2_4coej"]
+[ext_resource type="Texture2D" uid="uid://8vj5ol4tnais" path="res://sprites/HeltbarRed.png" id="2_g8smx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g8smx"]
-atlas = ExtResource("2_4coej")
-region = Rect2(195, 69, 42, 7)
+atlas = ExtResource("2_g8smx")
+region = Rect2(146.824, 100.793, 42.1576, 7.13752)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g61un"]
-atlas = ExtResource("2_4coej")
-region = Rect2(3, 69, 42, 7)
+atlas = ExtResource("2_g8smx")
+region = Rect2(98.8967, 100.842, 42.2367, 7.19048)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4coej"]
-atlas = ExtResource("2_4coej")
-region = Rect2(195, 85, 42, 7)
+atlas = ExtResource("2_g8smx")
+region = Rect2(146.91, 100.782, 42.1619, 7.45012)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1vfjs"]
-atlas = ExtResource("2_4coej")
-region = Rect2(3, 85, 42, 7)
+atlas = ExtResource("2_g8smx")
+region = Rect2(98.9771, 100.797, 42.1252, 7.3279)
 
 [node name="GUI" type="Control"]
 layout_mode = 3
@@ -33,23 +33,23 @@ script = ExtResource("1_ei5m6")
 
 [node name="P1HealthBar" type="TextureProgressBar" parent="CanvasLayer"]
 unique_name_in_owner = true
-offset_right = 42.0
-offset_bottom = 7.0
+offset_left = 11.46
+offset_top = 11.0
+offset_right = 53.46
+offset_bottom = 18.0
 scale = Vector2(1.5, 1.5)
-min_value = -10.0
 value = 100.0
 texture_under = SubResource("AtlasTexture_g8smx")
 texture_progress = SubResource("AtlasTexture_g61un")
 
 [node name="P2HealthBar" type="TextureProgressBar" parent="CanvasLayer"]
 unique_name_in_owner = true
-offset_left = 480.0
-offset_top = 10.0
-offset_right = 522.0
-offset_bottom = 17.0
+offset_left = 468.89
+offset_top = 22.0
+offset_right = 510.89
+offset_bottom = 29.0
 rotation = -3.14159
 scale = Vector2(1.5, 1.5)
-min_value = -10.0
 value = 100.0
 texture_under = SubResource("AtlasTexture_4coej")
 texture_progress = SubResource("AtlasTexture_1vfjs")

@@ -81,6 +81,17 @@ D - Moverse hacia la derecha
 E - Atacar"
 label_settings = SubResource("LabelSettings_34qsr")
 
+[node name="Label6" type="Label" parent="."]
+layout_mode = 0
+offset_left = 531.0
+offset_top = 429.0
+offset_right = 617.0
+offset_bottom = 452.0
+theme_override_fonts/font = ExtResource("2_fs7xj")
+theme_override_font_sizes/font_size = 20
+text = "ESC - Pausa"
+label_settings = SubResource("LabelSettings_34qsr")
+
 [node name="Label5" type="Label" parent="."]
 layout_mode = 0
 offset_left = 607.0

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bac3oobymwdkv"]
 
 [ext_resource type="FontFile" uid="uid://u87gwag3gnsm" path="res://GUI/PIXELADE.TTF" id="1_c4xyn"]
-[ext_resource type="Script" uid="uid://de5ufa3dmwkrx" path="res://Escenarios/win_2.gd" id="1_m0oe6"]
+[ext_resource type="Script" uid="uid://de5ufa3dmwkrx" path="res://GUI/win_2.gd" id="1_m0oe6"]
 [ext_resource type="Texture2D" uid="uid://2838at2v743h" path="res://sprites/WinInfierno.png" id="2_m0oe6"]
 
 [node name="Win2" type="Control"]

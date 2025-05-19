@@ -565,9 +565,7 @@ unique_name_in_owner = true
 position = Vector2(-2, 0)
 scale = Vector2(0.270833, 0.328776)
 sprite_frames = SubResource("SpriteFrames_86s8f")
-animation = &"superpunch"
-frame = 6
-frame_progress = 1.0
+animation = &"walk"
 
 [node name="Collision1" type="CollisionShape2D" parent="."]
 unique_name_in_owner = true
